@@ -65,12 +65,6 @@ All parameters are set in `main.cpp`:
 | `dt` | 0.01 | Time step ($\Delta t$) |
 | `steps` | 1000 | Number of simulation steps |
 
-## Plotting
-Results can be visualised with the included Python script:
-```bash
-python plot.py
-```
-Requires `numpy` and `matplotlib`. Produces `pid_plot.png` showing position $x(t)$ over time with the setpoint marked.
 
 ## Example Output
 With default parameters the system starts at position $x = 1.0$, is driven toward the setpoint $x_{\text{setpoint}} = 5.0$, slightly overshoots around $t = 5$, then converges — a classic underdamped PID response.
